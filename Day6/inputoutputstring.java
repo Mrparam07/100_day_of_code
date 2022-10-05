@@ -10,7 +10,7 @@ public class Day6 {
         String str="Hello there";
         String str2=new String();
         System.out.println("Enter other String");
-        sc.nextLine();
+        sc.nextLine();//can take any string ,character, number, symbols etc.
         //Printing a String
         System.out.println(str);
         System.out.println(str2);
@@ -19,3 +19,10 @@ public class Day6 {
 
     }
 }
+//Test cases
+//for str
+//it print "Hello there"
+//for str2
+//it take the input from user
+//ex:: I am Paramveer
+//then it prints "Paramveer"
