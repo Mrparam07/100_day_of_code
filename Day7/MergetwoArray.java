@@ -1,4 +1,4 @@
-//Smallest and largest element in 1DArray
+//Merging an Array 
 
 
 import java.security.Key;
