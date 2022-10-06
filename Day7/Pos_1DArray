@@ -1,0 +1,39 @@
+//finding an element in 1D Array and its position of existence
+
+import java.security.Key;
+import java.util.*;
+public class Day7_2 {
+    public static void main(String[] args) {
+        int arr[]={1,2,3,4,5,6,7,8,9};
+        boolean flag=false;
+        int a=0;
+        System.out.println("Enter the number"); //
+        Scanner sc=new Scanner(System.in);
+        int key=sc.nextInt();
+        if(key==(int)key ) { //checks only for the given number is integer type or not only then it will continue
+            for (int i = 0; i < arr.length; i++) {
+                if (arr[i] == key) {
+                    flag = true;
+                    a = i;
+                }
+            }
+            if (flag == true)
+                System.out.println("Element found at index::" + (a + 1));
+            else
+                System.out.println("Elemnt not Found");
+
+        }
+        else System.out.println("Invalid");
+
+    }
+}
+/*
+output
+Test Case 1
+Enter the Number
+5
+Element found at index::5
+Test Case 2
+Enter the number
+5.2
+Invalid
