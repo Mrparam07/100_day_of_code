@@ -1,3 +1,8 @@
+//the Butterfly Pattern in two sections while programming. 
+//The first section contains the first five rows of the Butterfly Pattern. 
+//The second section contains the last four rows of the Butterfly Pattern
+
+
 public class ButterFly {
     public static void main(String[] args) {
 
