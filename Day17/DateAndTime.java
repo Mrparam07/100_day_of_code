@@ -101,12 +101,66 @@ TEST CASE 0
 
 Input (stdin)
 
-Download
+
 08 05 2015
-Your Output (stdout)
+
 WEDNESDAY
+
+TEST CASE 1
+
+Input (stdin)
+
+Download
+04 06 2012
+Expected Output
+
+
+FRIDAY
+
+TEST CASE 2
+
+Input (stdin)
+
+Download
+02 13 2010
 Expected Output
 
 Download
-WEDNESDAY
+SATURDAY
+
+TEST CASE 3
+
+Input (stdin)
+
+Download
+12 25 2059
+Expected Output
+
+Download
+THURSDAY
+
+
+TEST CASE 4
+
+Input (stdin)
+
+Download
+08 05 2999
+Expected Output
+
+Download
+MONDAY
+
+TEST CASE 5
+
+Input (stdin)
+
+Download
+02 29 2004
+Expected Output
+
+Download
+SUNDAY
+
+
 */
