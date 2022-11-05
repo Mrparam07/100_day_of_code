@@ -30,3 +30,8 @@ public class ExceptionExample{
    System.out.println("Next block of code");  
   }  
 }
+
+/*
+java.lang.ArithmeticException: / by zero
+Next block of code
+*/
