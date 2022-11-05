@@ -19,4 +19,4 @@ public class TryCatchExample9 {
 //OUTPUT
 
 //java.lang.ArrayIndexOutOfBoundsException: 10
-//rest of the code
+//Next Block of code
