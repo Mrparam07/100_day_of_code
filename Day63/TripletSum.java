@@ -65,3 +65,14 @@ public class Solution {
     }
 
 }
+ public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int testCases = scan.nextInt();
+        while (testCases != 0) {
+            int[] arr = takeArrayInput();
+            int x = scan.nextInt();
+            System.out.println(tripletSum(arr, x));
+            testCases--;
+        }
+    }
+}
